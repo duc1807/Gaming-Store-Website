@@ -1,0 +1,536 @@
+#backgroundimg
+{
+  filter: blur(2.5px);
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: fixed;
+}
+.img1
+{
+  display: inline;
+  float: right;
+  margin-left: 20px;
+  margin-right: 80px;
+  margin-top: -140px;
+  box-shadow: 0px 2px 15px 18px;
+  transition: transform .2s;
+}
+#gameimg
+{
+  display: inline;
+  float: right;
+  margin-left: 20px;
+  margin-right: 80px;
+  margin-top: 100px;
+
+  transition: transform .2s;
+}
+#gameimg:hover, .img1:hover
+{
+  transform: scale(1.15);
+}
+#gameimg
+{
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+.game_title
+{
+  color: red;
+  font-family: Arial;
+  font-size: 30px;
+  margin-left: 40px;
+  max-width: 400px;
+  margin-top: 30px;
+  position: fixed;
+}
+.game_des
+{
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 40px;
+  max-width: 400px;
+
+  margin-top: 140px;
+  position: fixed;
+}
+.game_pr
+{
+  position: fixed;
+  color: purple;
+  font-family: Arial;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 430px;
+  border: 1px solid grey;
+  padding: 8px;
+  background-color: darkorange;
+}
+
+#game_info
+{
+  
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  position: absolute;
+  margin-top: 65%;
+  margin-left: 30px;
+
+}
+#game_content
+{
+  position: absolute;
+  background-color: black;
+  width: 75%;
+  height: 500px;
+  margin-top: 120px;
+  margin-left: 185px;
+  box-shadow: 0px 2px 12px 20px;
+
+}
+#head
+{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 5;
+}
+.game_detail
+{
+  width: 340px;
+  height: 240px;
+  background-color: black;
+  box-shadow: 0px 2px 15px 18px;
+  display: inline-block;
+  margin: 40px;
+  position: relative;
+  text-align: center;
+}
+.accessories_image{
+   transition: transform .2s;
+}
+.accessories_image:hover
+{
+    transform: scale(1.15);
+}
+
+.maccessories_detail
+{
+  width: 230px;
+  height: 280px;
+  background-color: black;
+  box-shadow: 0px 2px 15px 18px;
+  display: inline-block;
+  margin: 82px;
+  position: relative;
+  text-align: center;
+}
+.accessories_info
+{
+  color: white;
+  font-size: 24px;
+}
+.accessories_detail
+{
+  width: 240px;
+  height: 300px;
+  background-color: black;
+  box-shadow: 0px 2px 15px 18px;
+  display: inline-block;
+  margin: 40px;
+  position: relative;
+  text-align: center;
+}
+body
+{
+ background-color: black;
+}
+#vid1
+{
+	z-index: 1;
+	margin-top: 80px;
+	margin-left: 500px;
+	min-height: 240px;
+}
+#vid1:hover
+{
+  transition: transform 0.4s;
+  transform: scale(1.05);
+}
+#login
+{
+  cursor: pointer;
+  border: none;
+  margin-right: -100px;
+  background-color: orange;
+  color: black;
+  align-self: right;
+  font-weight: bolder;
+}
+#loginbut
+{
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  margin-left: 1275px;
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+  margin-top: -40px;
+  position: absolute;
+  font-weight: bolder;
+}
+#login:hover, #loginbut:hover
+{
+   background-color: #c4811d; 
+}
+.but, .dropbtn
+{
+	font-family: open sans;
+	font-size: 18px;
+  border: none;
+	color: lightgrey;
+	padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+	box-shadow: 0px 0px 30px 5px;
+}
+.but:hover, .dropbtn:hover
+{
+	background-color:#475459;
+  transition-duration: 0.5s;
+  transition-timing-function: initial;
+
+}
+.dropdown-content
+{
+  transition: transform .5s;
+}
+
+li.dropdown
+{
+	display: inline-block;
+}
+.ul 
+{
+	width: 100%;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+li a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover
+{
+	background-color: silver;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  width: fit-content;
+  box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: -4px;
+  transition-duration: 1s;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #aaaaaa;
+  transition-duration: .5s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#intro
+{
+  margin-left: 100px;
+  font-family: Calibri;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+#contact
+{
+  z-index: -1;
+  background-color: black;
+  box-shadow: 0px 2px 14px 50px;
+  position: fixed;
+  height: 400px;
+  width: 70%;
+  margin-top: 200px;
+  margin-left: 220px;
+}
+.contact_city
+{
+  font-family: arial;
+  position: fixed;
+  color: white; 
+  margin-top: 0px;
+  font-weight: bolder;
+}
+.contact_info
+{
+  margin-top: 40px;
+  color: white;
+  font-family: arial;
+  font-size: 17px;
+}
+.dongquan
+{
+  z-index: 5;
+  margin-top: 180px;
+  margin-left: 850px;
+}
+#search
+{
+  background-color: blue;
+  border-radius: 40px;
+  height: 30px;
+  width: 400px;
+  position: fixed;
+  margin-top: -33px;
+  margin-left: 820px;
+  background-color: black;
+  color: white;
+  padding-left: 15px;
+ border-color: silver; 
+ opacity: 0.8;
+ z-index: 1;
+}
+#searchac
+{
+  background-color: blue;
+  border-radius: 40px;
+  height: 30px;
+  width: 400px;
+  position: fixed;
+  margin-top: -340px;
+  margin-left: 420px;
+  background-color: black;
+  color: white;
+  padding-left: 15px;
+  border-color: silver; 
+  opacity: 0.8;
+  z-index: 7;
+}
+#search:focus
+{
+  text-decoration: none;
+}
+#searchbutac
+{
+  z-index: 8;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-left: 745px;
+  margin-top: -340px;
+  border: none;
+  height: 30px;
+  width: 75px;
+  color: white;
+  background-color: silver;
+  position: fixed;
+
+}
+#searchbutac:hover
+{
+  opacity: 1;
+
+}
+#searchbut
+{
+  z-index: 2;
+  opacity: 0.8;
+  cursor: pointer;
+  position: fixed;
+  margin-top: -33px;
+  margin-left: 1145px;
+  border-radius: 40px;
+  border: none;
+  height: 30px;
+  width: 75px;
+  color: white;
+  background-color: silver;
+}
+#searchbut:hover
+{
+  opacity: 1;
+
+}
+#searchbut
+{
+  z-index: 2;
+  opacity: 0.8;
+  cursor: pointer;
+  position: fixed;
+  margin-top: -33px;
+  margin-left: 1145px;
+  border-radius: 40px;
+  border: none;
+  height: 30px;
+  width: 75px;
+  color: white;
+  background-color: silver;
+}
+#searchbut:hover
+{
+  opacity: 1;
+
+}
+
+.tanki
+{
+  z-index: 5;
+  margin-top: 30px;
+  margin-left: 850px;
+}
+#line
+{
+  background-color: grey;
+  width: 110%;
+
+  position: fixed;
+}
+#intro:hover
+{
+  background-color:#475459;
+}
+
+/* Phu kien */
+
+#container
+{
+  background-color: #474040;
+  width: 1500px;
+  height: 320px;
+}
+#sidecontent
+{
+  cursor: pointer;
+  background-color: black;
+  width: 100%;
+  border: 1px solid silver;
+  text-align: center;
+}
+#sidect
+{
+  cursor: pointer;
+}
+#sidecontent:hover
+{
+  background-color: silver;
+}
+#sidemenu
+{
+  box-shadow: 0px 12px 14px 10px;
+  background-color: black;
+  width: 300px;
+  height: 600px;
+  float: left;
+  margin-left: 110px;
+}
+
+
+#index-content
+{
+
+  width: 85%;
+  margin-left: 110px;
+  margin-top: 150px;
+}
+#content
+{
+  margin-top: -100px;
+  margin-left: -40px;
+  float: left;
+  width: 800px;
+  height: fit-content;
+  margin-right: 250px;
+
+}
+#foot
+{
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+#footer
+{
+  clear: left;
+  background-color: #1b1e57;
+  height: 70px;
+  margin-top: 800px;
+  width: 1500px;
+}
+
+/* POPUP fORM*/
+
+.form_popup
+{
+  display: none;
+  box-shadow: 0px 0px 40px 20px;
+  position: absolute;
+  margin-left: 1200px;
+  background-color: #7e8082;
+  width: 260px; 
+  height: 320px;
+  margin-top: 24px;
+  z-index: 5;
+}
+#cancel
+{
+  font-weight: bolder;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 22px;
+  float: right;
+  margin-top: -20px;
+  cursor: pointer;
+}
+#signup_line:hover
+{
+  font-style: italic;
+}
+#signup_line
+{
+  margin-left: 14px;
+}
+
+
